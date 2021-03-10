@@ -11,21 +11,31 @@ using namespace std;
 string phrase;
 
 void ProblemSolving::GetString() {
-    cout << "Please enter your favorite String in the Palindrome Checker!";
-    cin >> phrase;
+    cout << "Please enter your favorite String in the Palindrome Checker!" << endl;
+    getline(cin, phrase);
+    cout << phrase << endl;
 }
 void ProblemSolving::lowerCase(){
-    string phrase2;
     int i = phrase.length()-1;
-    char c;
     while (i >= 0){
         phrase[i] = tolower(phrase[i]);
-        c = phrase[i];
         i--;
-        cout << c;
     }
-    cout << "\n" << phrase;
+
+    cout << "\n" << "Your Phrase without Caps:  " << phrase << endl;
 }
 void ProblemSolving::removeSpaces() {
+    //phrase.erase(remove(phrase.begin(), phrase.end(), " "),phrase.end());
+    int length = phrase.length();
+    for (int i = 0; i < length; i++){
+        if(phrase[i] == ' '){
+            phrase.erase(i,1);
+            length--;
+            i--;
+        }
+    }
+
+
     cout << "Your phrase as entered without spaces:";
+    cout << phrase;
 }

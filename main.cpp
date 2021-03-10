@@ -7,6 +7,7 @@ int main() {
     ProblemSolving newProblemSolving;
     newProblemSolving.GetString();
     newProblemSolving.lowerCase();
+    newProblemSolving.removeSpaces();
 
     return 0;
 
