@@ -78,6 +78,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/robprellwitz/Desktop/Development Projects/CLionProjects/Learn/C++ learning/ProblemSolving.cpp">
+			<Option target="C___learning"/>
+		</Unit>
+		<Unit filename="/Users/robprellwitz/Desktop/Development Projects/CLionProjects/Learn/C++ learning/ProblemSolving.h">
+			<Option target="C___learning"/>
+		</Unit>
 		<Unit filename="/Users/robprellwitz/Desktop/Development Projects/CLionProjects/Learn/C++ learning/main.cpp">
 			<Option target="C___learning"/>
 		</Unit>
