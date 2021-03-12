@@ -22,7 +22,7 @@ class Rectangle: public Shapes{
 class Triangle: public Shapes{
     double area(double base, double height);
     double area (double side1, double side2, double side3);
-    double perimeter();
+    double perimeter(double side1, double side2, double side3);
 };
 
 

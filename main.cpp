@@ -10,6 +10,8 @@ int main() {
     newProblemSolving.removeSpaces();
     newProblemSolving.checkPalindrome();
 
+    
+
     return 0;
 
 }
