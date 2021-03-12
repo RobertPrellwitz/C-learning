@@ -7,7 +7,22 @@
 
 
 class Shapes {
+public:
+    double area();
+    double permiter();
 
+
+};
+
+class Rectangle: public Shapes{
+    double area(double length, double width);
+    double perimeter(double length, double width);
+};
+
+class Triangle: public Shapes{
+    double area(double base, double height);
+    double area (double side1, double side2, double side3);
+    double perimeter();
 };
 
 

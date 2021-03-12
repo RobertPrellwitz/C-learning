@@ -3,3 +3,7 @@
 //
 
 #include "Shapes.h"
+
+double Rectangle::area(double length, double width) {
+
+}
