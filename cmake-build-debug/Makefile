@@ -170,6 +170,33 @@ ProblemSolving.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C___learning.dir/build.make CMakeFiles/C___learning.dir/ProblemSolving.cpp.s
 .PHONY : ProblemSolving.cpp.s
 
+Shapes.o: Shapes.cpp.o
+
+.PHONY : Shapes.o
+
+# target to build an object file
+Shapes.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C___learning.dir/build.make CMakeFiles/C___learning.dir/Shapes.cpp.o
+.PHONY : Shapes.cpp.o
+
+Shapes.i: Shapes.cpp.i
+
+.PHONY : Shapes.i
+
+# target to preprocess a source file
+Shapes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C___learning.dir/build.make CMakeFiles/C___learning.dir/Shapes.cpp.i
+.PHONY : Shapes.cpp.i
+
+Shapes.s: Shapes.cpp.s
+
+.PHONY : Shapes.s
+
+# target to generate assembly for a file
+Shapes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C___learning.dir/build.make CMakeFiles/C___learning.dir/Shapes.cpp.s
+.PHONY : Shapes.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -209,6 +236,9 @@ help:
 	@echo "... ProblemSolving.o"
 	@echo "... ProblemSolving.i"
 	@echo "... ProblemSolving.s"
+	@echo "... Shapes.o"
+	@echo "... Shapes.i"
+	@echo "... Shapes.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
