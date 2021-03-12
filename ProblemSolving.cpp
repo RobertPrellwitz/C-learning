@@ -34,8 +34,26 @@ void ProblemSolving::removeSpaces() {
             i--;
         }
     }
+    cout << "Your phrase as entered without spaces:" << endl;
+    cout << phrase << endl;
+}
 
-
-    cout << "Your phrase as entered without spaces:";
-    cout << phrase;
+void ProblemSolving::checkPalindrome() {
+    int j = phrase.length();
+    bool check = true;
+    for (int i = 0; i<= j/2; i++){
+        if (phrase[i] == phrase[j-1]){
+            j--;
+        }
+        else {
+            check = false;
+            break;
+        }
+    }
+    if (check == true){
+        cout << phrase << " Is a palindrome! " << endl;
+    }
+    else{
+        cout << phrase << " Is not a palindrome!" << endl;
+    }
 }

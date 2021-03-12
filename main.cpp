@@ -8,6 +8,7 @@ int main() {
     newProblemSolving.GetString();
     newProblemSolving.lowerCase();
     newProblemSolving.removeSpaces();
+    newProblemSolving.checkPalindrome();
 
     return 0;
 
