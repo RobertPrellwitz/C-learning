@@ -17,7 +17,7 @@ void Controller::shapeSelect() {
 
     switch (temp) {
         case 1:
-        cout << "Rectangle";
+        calcRectangle();
         break;
         case 2:
         {cout << "Triangle";
@@ -32,8 +32,8 @@ void Controller::calcRectangle() {
     cout << endl << "What is the length of the second side?" << endl;
     cin >> side2;
     double perimeter = r.perimeter(side1, side2);
-    cout << "The perimeter of your rectangle is: " << perimeter;
+    cout << "The perimeter of your rectangle is: " << perimeter << endl;
     double area = r.area(side1, side2);
-    cout << "The area of your rectangle is :" << area;
+    cout << "The area of your rectangle is :" << area << endl;
 
 }
