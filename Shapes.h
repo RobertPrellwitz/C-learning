@@ -21,6 +21,7 @@ public:
 };
 
 class Triangle: public Shapes{
+public:
     double area(double base, double height);
     double area (double side1, double side2, double side3);
     double perimeter(double side1, double side2, double side3);

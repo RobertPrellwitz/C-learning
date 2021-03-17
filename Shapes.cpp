@@ -18,8 +18,13 @@ double Triangle::area(double base, double height) {
     return area;
 }
 double Triangle::area(double side1, double side2, double side3) {
-    //double triPerim = Triangle.perimiter(side1,side2,side3)
     double perimeter = (side3+side2+side1)/2;
     double area = sqrt(perimeter*(perimeter-side1)*(perimeter-side2)*(perimeter-side3));
     return area;
 }
+double Triangle::perimeter(double side1, double side2, double side3) {
+    double perimeter = (side3+side2+side1)/2;
+            return perimeter;
+}
+
+
