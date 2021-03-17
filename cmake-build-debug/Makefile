@@ -143,6 +143,33 @@ C___learning/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C___learning.dir/build.make CMakeFiles/C___learning.dir/build
 .PHONY : C___learning/fast
 
+Controller.o: Controller.cpp.o
+
+.PHONY : Controller.o
+
+# target to build an object file
+Controller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C___learning.dir/build.make CMakeFiles/C___learning.dir/Controller.cpp.o
+.PHONY : Controller.cpp.o
+
+Controller.i: Controller.cpp.i
+
+.PHONY : Controller.i
+
+# target to preprocess a source file
+Controller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C___learning.dir/build.make CMakeFiles/C___learning.dir/Controller.cpp.i
+.PHONY : Controller.cpp.i
+
+Controller.s: Controller.cpp.s
+
+.PHONY : Controller.s
+
+# target to generate assembly for a file
+Controller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C___learning.dir/build.make CMakeFiles/C___learning.dir/Controller.cpp.s
+.PHONY : Controller.cpp.s
+
 ProblemSolving.o: ProblemSolving.cpp.o
 
 .PHONY : ProblemSolving.o
@@ -233,6 +260,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C___learning"
+	@echo "... Controller.o"
+	@echo "... Controller.i"
+	@echo "... Controller.s"
 	@echo "... ProblemSolving.o"
 	@echo "... ProblemSolving.i"
 	@echo "... ProblemSolving.s"

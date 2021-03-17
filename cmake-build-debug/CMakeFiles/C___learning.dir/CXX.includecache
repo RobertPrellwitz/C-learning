@@ -6,17 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/robprellwitz/Desktop/Development Projects/CLionProjects/Learn/C++ learning/ProblemSolving.cpp
-string
--
-cstdlib
--
+/Users/robprellwitz/Desktop/Development Projects/CLionProjects/Learn/C++ learning/Controller.cpp
 iostream
 -
-locale
--
-ProblemSolving.h
-/Users/robprellwitz/Desktop/Development Projects/CLionProjects/Learn/C++ learning/ProblemSolving.h
+Controller.h
+/Users/robprellwitz/Desktop/Development Projects/CLionProjects/Learn/C++ learning/Controller.h
+Shapes.h
+/Users/robprellwitz/Desktop/Development Projects/CLionProjects/Learn/C++ learning/Shapes.h
 
-/Users/robprellwitz/Desktop/Development Projects/CLionProjects/Learn/C++ learning/ProblemSolving.h
+/Users/robprellwitz/Desktop/Development Projects/CLionProjects/Learn/C++ learning/Controller.h
+
+/Users/robprellwitz/Desktop/Development Projects/CLionProjects/Learn/C++ learning/Shapes.h
 

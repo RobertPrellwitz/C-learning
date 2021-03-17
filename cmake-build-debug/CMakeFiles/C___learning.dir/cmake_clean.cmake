@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/C___learning.dir/Controller.cpp.o"
   "CMakeFiles/C___learning.dir/ProblemSolving.cpp.o"
   "CMakeFiles/C___learning.dir/Shapes.cpp.o"
   "CMakeFiles/C___learning.dir/main.cpp.o"

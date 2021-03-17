@@ -3,4 +3,4 @@ project(C___learning)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(C___learning main.cpp ProblemSolving.cpp ProblemSolving.h Shapes.cpp Shapes.h)
+add_executable(C___learning main.cpp ProblemSolving.cpp ProblemSolving.h Shapes.cpp Shapes.h Controller.cpp Controller.h)
