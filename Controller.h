@@ -7,6 +7,10 @@
 
 
 class Controller {
+public:
+    void shapeSelect();
+    void calcRectangle();
+    void calcTriangle();
 
 };
 

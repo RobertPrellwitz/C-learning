@@ -9,6 +9,10 @@ double Rectangle::area(double length, double width) {
     double area = length * width;
     return area;
 }
+double Rectangle::perimeter(double lenght, double width) {
+    double perimeter = 2 * lenght + 2 * width;
+    return perimeter;
+}
 double Triangle::area(double base, double height) {
     double area = 0.5* base * height;
     return area;

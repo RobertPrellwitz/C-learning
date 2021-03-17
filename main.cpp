@@ -1,5 +1,6 @@
 #include <iostream>
 #include "ProblemSolving.h"
+#include "Controller.h"
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
@@ -10,7 +11,11 @@ int main() {
     newProblemSolving.removeSpaces();
     newProblemSolving.checkPalindrome();
 
-    
+    Controller newController;
+
+    newController.shapeSelect();
+
+
 
     return 0;
 

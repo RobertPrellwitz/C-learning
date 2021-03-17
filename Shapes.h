@@ -9,12 +9,13 @@
 class Shapes {
 public:
     double area();
-    double permiter();
+    double perimeter();
 
 
 };
 
-class Rectangle: public Shapes{
+class Rectangle : public Shapes{
+public:
     double area(double length, double width);
     double perimeter(double length, double width);
 };
@@ -24,6 +25,8 @@ class Triangle: public Shapes{
     double area (double side1, double side2, double side3);
     double perimeter(double side1, double side2, double side3);
 };
+
+
 
 
 #endif //C___LEARNING_SHAPES_H
